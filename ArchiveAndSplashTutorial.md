@@ -4,7 +4,7 @@
 
 Normal textures save in the .dds subtypes of BC7 Linear/sRGB DX11+, with "Generate Mip Maps" ticked. *However* these are NOT the formats archive icons, icon miniatures, and splash art should be saved as, as it overly compresses them and generates artifacts.
 
-_This was written with paint.net in mind, and I cannot answer for Photoshop saving as I find it unreliable for this case usage. If you use PS, save the image as BC7 Linear DX11+, then re-save from paint.net._
+_This was written with paint.net in mind, and I cannot answer for Photoshop saving as I find it unreliable for this case usage. If you use PS, save the image as PNG or TGA, then re-save from paint.net._
 
 ### The ideal format for these files is R8G8B8A8 (Linear, A8B8G8R8) WITH MIP MAPS OFF.
 ### Flatten the image before saving, as multiple layers are more likely to generate artifacts.
